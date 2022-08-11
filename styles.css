@@ -58,12 +58,13 @@ p{
 /* Intro */
 #intro{
     height: 100%;
-    background-image: url('https://scx2.b-cdn.net/gfx/news/hires/2017/ocean.jpg');
+    background-image: url('https://acegif.com/wp-content/gifs/starfall-gif-46.gif');
     background-size: cover;
-    filter: grayscale(100%);
+    filter: contrast(100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: white;
 }
 
 .intro{
