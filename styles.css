@@ -32,9 +32,8 @@ a{
     font-size: 20px;
 }
 
-li:hover{
-    border: solid white;
-    border-radius: 12px;
+li:active{
+    font-weight: bold;
 }
 
 /* All Sections */
@@ -180,4 +179,16 @@ button:hover{
 
 .iconName{
     font-size: 30px;
+}
+
+#top{
+    border: solid white;
+    max-width: 5%;
+    padding: 10px;position: absolute;
+    bottom: -3200px;
+    right: 100px;
+}
+
+#top:active{
+    font-weight: bold;
 }
