@@ -6,13 +6,11 @@ html, body{
 
 /* Navigation Styling */
 #navigation{
-    background-color: black;
+    background-color: transparent;
     width: 100%;
     height: 70px;
     position: fixed;
     z-index: 1;
-    box-sizing: border-box;
-    border-bottom: solid white 0.1px;
 }
 
 ul{
@@ -26,8 +24,9 @@ ul{
 }
 
 a{
+    transition: 0.5s;
     text-decoration: none;
-    color: whitesmoke;
+    color: white;
     margin: 0px;
     font-size: 20px;
 }
@@ -36,9 +35,14 @@ li:active{
     font-weight: bold;
 }
 
+.navColor{
+    transition: 0.5s;
+    color: black;
+}
+
 /* All Sections */
 section{
-    height: 100%;
+    height: 100vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -113,13 +117,15 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 130px;
+    flex-wrap: wrap;
 }
 
 .devicons{
     width: 150px;
     height: auto;
     text-align: center;
+    margin-right: 50px;
+    margin-top: 40px;
 }
 
 .devicon-express-original{
@@ -132,6 +138,7 @@ p{
     padding-top: 30px;
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 
 button{
@@ -153,6 +160,10 @@ button:hover{
 .divide{
     color: black;
     font-size: 20px;
+}
+
+#project2{
+    margin-top: 70px;
 }
 
 /* Contact */
@@ -186,10 +197,10 @@ button:hover{
     border: solid white;
     max-width: 5%;
     padding: 10px;position: absolute;
-    bottom: -3200px;
+    bottom: -2800px;
     right: 100px;
 }
 
 #top:active{
-    font-weight: bold;
+    color: blue;
 }
