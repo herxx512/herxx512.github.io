@@ -62,9 +62,9 @@ p{
 /* Intro */
 #intro{
     height: 100%;
-    background-image: url('https://acegif.com/wp-content/gifs/starfall-gif-46.gif');
+    background-image: url('https://thumbs.gfycat.com/AcclaimedDimBaiji-size_restricted.gif');
     background-size: cover;
-    filter: contrast(100%);
+    filter: contrast(120%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,9 +72,11 @@ p{
 }
 
 .intro{
+    /* color: black; */
+    font-size: 70px;
     margin: 1%;
     text-align: center;
-    font-size: 70px;
+    -webkit-text-stroke: 2px black;
 }
 
 /* About */
