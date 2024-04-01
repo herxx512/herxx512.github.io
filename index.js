@@ -1,7 +1,7 @@
 function changeNav(){
     let scrollValue = window.scrollY;
 
-    if(scrollValue > 660 && scrollValue < 1380|| scrollValue > 2080 && scrollValue < 2810){
+    if(scrollValue > 740 && scrollValue < 1515|| scrollValue > 2535 && scrollValue < 3475){
         nav1.classList.add('navColor');
         nav2.classList.add('navColor');
         nav3.classList.add('navColor');

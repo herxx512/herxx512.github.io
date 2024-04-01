@@ -62,7 +62,7 @@ p{
 /* Intro */
 #intro{
     height: 100%;
-    background-image: url('https://thumbs.gfycat.com/AcclaimedDimBaiji-size_restricted.gif');
+    background-image: url('https://usagif.com/wp-content/uploads/gifs/starfall-gif-46.gif');
     background-size: cover;
     filter: contrast(120%);
     display: flex;
@@ -106,6 +106,10 @@ p{
 }
 
 /* Skills */
+#third{
+    height: 130vh;
+}
+
 #skills{
     height: 100%;
     padding-top: 30px;
@@ -135,6 +139,10 @@ p{
 }
 
 /* Projects */
+#fourth{
+    height: 120vh;
+}
+
 #projects{
     height: 100%;
     padding-top: 30px;
@@ -165,6 +173,10 @@ button:hover{
 }
 
 #project2{
+    margin-top: 70px;
+}
+
+#project3{
     margin-top: 70px;
 }
 
